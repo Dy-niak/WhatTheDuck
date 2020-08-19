@@ -1,0 +1,43 @@
+%!Adobe-FontList 1.14
+%Locale:0x415
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Milkshake
+FamilyName:Milkshake
+StyleName:Regular
+FullName:Milkshake
+MenuName:Milkshake
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Zosia\Desktop\What the Duck\Font\Milkshake.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:182076
+FileModTime:1409403248
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Milkshake
+FamilyName:Milkshake
+StyleName:Regular
+FullName:Milkshake
+MenuName:Milkshake
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Zosia\Desktop\What the Duck\Font\Milkshake.ttf
+DataFormat:sfntData
+FileLength:266144
+FileModTime:1409403248
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+

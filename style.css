@@ -1,0 +1,40 @@
+body, html {
+    font-family: 'Calibri', sans-serif;
+    text-align: center;
+    margin: 0px auto;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #FFD073;
+}
+
+#homepage {
+    height: 100%;
+}
+
+#logo {
+    max-height: 20%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#glownaKaczka{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    max-height: 50%;
+    max-width: 600px;
+    border: solid 10px #FFBF40;
+}
+.pozostaleKaczki {
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 60%;
+}
+.pozostaleKaczki img {
+    max-width: 100%;
+    border: solid 10px #FFBF40;
+}
+footer {
+    background-color: coral;
+    height: 60px;
+    line-height: 60px;
+}
