@@ -2,26 +2,21 @@ body, html {
     font-family: 'Calibri', sans-serif;
     text-align: center;
     margin: 0px auto;
-    height: 100%;
     box-sizing: border-box;
     background-color: #FFD073;
 }
-
-#homepage {
-    height: 100%;
-}
-
 #logo {
-    max-height: 20%;
     margin-top: 30px;
     margin-bottom: 20px;
 }
-#glownaKaczka{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    max-height: 50%;
-    max-width: 600px;
-    border: solid 10px #FFBF40;
+.kaczkaContainter{
+    margin: 30px auto;
+    width: 600px;
+    background-color: #FFBF40;
+    padding: 20px;
+}
+.kaczkaContainter img {
+    max-width: 100%;
 }
 .pozostaleKaczki {
     margin: 0 auto;
