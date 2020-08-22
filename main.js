@@ -1,24 +1,24 @@
-const losuj = document.querySelector('button');
-const kaczkaContainter = document.querySelector('#glownaKaczka')
-const bazaKaczek = ["img/kaczka1.png", "img/kaczka2.jpg", "img/kaczka3.jpg", "img/kaczka4.jpg", "img/kaczka5.jpg", "img/kaczka6.jpg"];
-let fotkiKaczek = bazaKaczek.concat();
-let kaczkaCounter=0;
+const draw = document.querySelector('button');
+const duckContainter = document.querySelector('#glownaKaczka')
+const duckHome = ["img/kaczka1.png", "img/kaczka2.jpg", "img/kaczka3.jpg", "img/kaczka4.jpg", "img/kaczka5.jpg", "img/kaczka6.jpg"];
+let duckPond = duckHome.concat();
+let duckCounter=0;
 
-const aktywnaKaczka=()=>{
-        let kaczkaIndex = [Math.floor(Math.random() * fotkiKaczek.length)];
-        kaczkaContainter.innerHTML = "<img src='" + fotkiKaczek[kaczkaIndex] + "'></img>";
-        fotkiKaczek.splice(kaczkaIndex,1);
-        kaczkaCounter++;
+const activeDuck=()=>{
+        let duckIndex = [Math.floor(Math.random() * duckPond.length)];
+        duckContainter.innerHTML = "<img src='" + duckPond[duckIndex] + "'></img>";
+        duckPond.splice(duckIndex,1);
+        duckCounter++;
 }
 
-let zmianaKaczki=()=>{
-        if(kaczkaCounter==bazaKaczek.length){
-                fotkiKaczek=fotkiKaczek.concat(bazaKaczek);
-                kaczkaCounter=0;
-                aktywnaKaczka();
+let newDuck=()=>{
+        if(duckCounter==duckPond.length){
+                duckPond=duckPond.concat(duckHome);
+                duckCounter=0;
+                activeDuck();
         }else{
-                aktywnaKaczka();
+                activeDuck();
         }
 }
 
-losuj.addEventListener('click', zmianaKaczki)
+draw.addEventListener('click', newDuck)
