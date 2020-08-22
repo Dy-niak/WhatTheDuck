@@ -12,7 +12,7 @@ const activeDuck=()=>{
 }
 
 let newDuck=()=>{
-        if(duckCounter==duckPond.length){
+        if(duckCounter==duckHome.length){
                 duckPond=duckPond.concat(duckHome);
                 duckCounter=0;
                 activeDuck();
