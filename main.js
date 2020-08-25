@@ -22,3 +22,35 @@ let newDuck=()=>{
 }
 
 draw.addEventListener('click', newDuck)
+
+
+//Odliczanie do nowej kaczki
+
+        // The data/time we want to countdown to
+        var tomorrow = new Date(2030, 08, 23, 15, 26, 10);
+
+        // Run myfunc every second
+        var myfunc = setInterval(function() {
+
+        var now = new Date().getTime();;
+        var timeleft = tomorrow - now;
+        
+        // Calculating the days, hours, minutes and seconds left
+        var hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+        
+        // Result is output to the specific element
+        document.getElementById("hours").innerHTML = hours + "h " 
+        document.getElementById("mins").innerHTML = minutes + "m " 
+        document.getElementById("secs").innerHTML = seconds + "s " 
+        
+        // Display the message when countdown is over
+        if (timeleft < 0) {
+        clearInterval(myfunc);
+        document.getElementById("hours").innerHTML = "" 
+        document.getElementById("mins").innerHTML = ""
+        document.getElementById("secs").innerHTML = ""
+        document.getElementById("end").innerHTML = "TIME UP!!";
+        }
+        }, 1000);
