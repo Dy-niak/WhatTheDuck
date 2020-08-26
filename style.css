@@ -5,8 +5,8 @@ body, html {
     box-sizing: border-box;
     background-color: #FFD073;
 }
-h2 {
-    font-size: 4em;
+p {
+    font-size: 2em;
 }
 #logo {
     margin-top: 30px;
@@ -24,15 +24,19 @@ h2 {
     max-height: 100%;
     object-fit: cover;
 }
-.kaczkaContainter{
+.kaczkaContainer{
     margin: 30px auto;
     width: 700px;
     min-height: 200px;
     background-color: #FFBF40;
     padding: 20px;
 }
-.kaczkaContainter img {
+.kaczkaContainer img {
    width: 100%;
+}
+.odliczanie {
+    display: inline;
+    font-size: 3em;
 }
 .pozostaleKaczki {
     margin: 0 auto;
