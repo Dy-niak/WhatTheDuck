@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0 auto;
 }
 body, html {
     font-family: 'Asap', sans-serif;
@@ -7,29 +8,24 @@ body, html {
     background-color: #FFD073;
 }
 .homepage {
-    height: 100vh;
-}
-.orange {
-    background-color: orange;
-}
-.yellow {
-    background-color:#FFD073;
+  border: solid 1px red;
 }
 .logo {
     margin: 30px 0 30px 0;
 }
-.glownaKaczka {
-    height: 50vh;
+.kaczkaRamka {
     width: 50%;
     margin: 20px auto;
-    border: 15px orange solid;
 }
-.glownaKaczka img {
+.kaczkaRamka img {
+    border: 10px orange solid;
     height: 100%;
     width: 100%;
     object-fit: cover;     
 }
-
+.kaczkaContainer {
+    border: 1px green solid;
+}
 button {
     height: 60px;
     width: 200px;
@@ -38,7 +34,6 @@ button {
     border-radius: 10px;
     border: 4px red solid;
     background-color: coral
-    
 }
 .odliczanie {
     display: inline;
